@@ -6,4 +6,4 @@ Encontrar una solucion mediante haskell a los problemas que se indicaron
 ## Tiempo requerido
 * **Aproximadamente:** ~4 dias
 
-![ghci](mv "WhatsApp Image 2026-10-04 at 12.42.31 AM.jpeg" evidencia.jpg)
+![ghci](WhatsApp%20Image%202026-10-04%20at%2012.42.31%20AM.jpeg)
