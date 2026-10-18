@@ -1,4 +1,4 @@
-import EsParBit
+import EsParBit_Modulo
 
 
 {-  funcion: cetes
@@ -31,3 +31,11 @@ soloPares list = [ x | x <- list, esParBit x]
 -}
 
 primos list = [ x | x <- list, ]
+
+{-  funcion: coprimos
+    Descripcion: recibe un entero y devuelve una lista de los coprimos de n
+    uso:
+-}
+
+coprimos :: Int -> [Int]
+coprimos n = [x | x <- ]

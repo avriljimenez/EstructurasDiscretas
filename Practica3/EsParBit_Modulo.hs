@@ -1,4 +1,4 @@
-module EsParBit where
+module EsParBit_Modulo where
 import Data.Bits ((.&.))
 
 esparBool x =
