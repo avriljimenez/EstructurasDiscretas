@@ -6,6 +6,12 @@ import EsParBit_Modulo
     uso:
 -}
 
+data P = Dias Double | Meses Double
+cetes :: Double -> P -> Double
+
+cetes v (Dias x) = v* (1+ (if x == 28 then 0.0609 else if x == 182 then 0.0691 else 0.0744) * x / 360)
+cetes v (Meses s) = cetes v (Dias (if s == 1 then 28 else if m == 6 then 182 else 364))
+
 {-  funcion: mensajeCetes
     Descripcion:
     uso:
