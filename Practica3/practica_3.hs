@@ -30,7 +30,7 @@ soloPares list = [ x | x <- list, esParBit x]
     uso:
 -}
 
-primos list = [ x | x <- list, ]
+primos list = [ x | x <- list, length [ s | s <- [1..x], mod x s == 0] == 2]
 
 {-  funcion: coprimos
     Descripcion: recibe un entero y devuelve una lista de los coprimos de n
@@ -38,4 +38,4 @@ primos list = [ x | x <- list, ]
 -}
 
 coprimos :: Int -> [Int]
-coprimos n = [x | x <- ]
+coprimos n = [x | x <- [1..n], mcd x n == 1]
